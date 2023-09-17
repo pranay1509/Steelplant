@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    
+    <h1>Hey {{data[1]}}, Welcome to your Space</h1>
+    <h2>File Upload</h2>
+    <h3>{{msg}}</h3>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
+    <a href="{{url_for('reviews')}}">REVIEWS</a>
+    <a href="{{url_for('team')}}">TEAM</a>
+</body>
+</html>

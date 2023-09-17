@@ -1,0 +1,7 @@
+{% if data[4] == 0  %}
+<h1>You haven't formed a team</h1>
+<a href="{{url_for('new_team')}}">NEW TEAM</a>
+<a href="{{url_for('old_team')}}">ADD INTO EXISTING TEAM</a>
+{% else %}
+<a href="home.html">Go to Your Space</a>
+{% endif %}

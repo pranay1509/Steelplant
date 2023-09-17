@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verification</title>
+    <link rel="stylesheet" href="verify.css">
+</head>
+<body>
+    <div class="container">
+        <h4>One-time password has been sent to the email id. Please check the email for verification.</h4>
+        <form id="verification-form" action="http://127.0.0.1:5000/verify" method="post">
+            <div class="form-group">
+                <label for="otp">Enter OTP:</label>
+                <input type="text" id="otp" name="otp" required>
+            </div>
+            <input type="hidden" name="name" value="{{name}}">
+            <input type="hidden" name="email" value="{{email}}">
+            <input type="hidden" name="pass" value="{{pas}}">
+            <input type="hidden" name="cpass" value="{{cpass}}">
+            <input type="submit" value="Submit" id="submit-btn" disabled>
+        </form>
+    </div>
+    <script src="verify.js"></script>
+</body>
+</html>
