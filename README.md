@@ -1,8 +1,9 @@
 # Project Repository System - Vizag Steel Plant Internship
 
-#Overview
+# Overview
 Welcome to the README for the Project Repository System developed as part of your internship at Vizag Steel Plant. This web application is designed to streamline project management and documentation within the organization. It provides a user-friendly interface for employees to upload, manage, and access project-related documents and information.
-#Features
+
+# Features
 1.User Authentication: The system supports user authentication to ensure that only authorized personnel can access and modify project data.
 
 2.Dashboard: Upon logging in, users are greeted with a customizable dashboard displaying their ongoing projects, recent updates, and key statistics.
@@ -11,8 +12,8 @@ Welcome to the README for the Project Repository System developed as part of you
 
 4.Document Upload: The system allows users to upload and organize project documents, including reports, drawings, and other relevant files.
 
-#Technologies Used
-The Project Repository System is built using the following technologies:
+# Technologies Used
+--The Project Repository System is built using the following technologies:
 
 *HTML/CSS: For the frontend user interface and styling.
 
